@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/estilos.css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" type="text/css">
+	<title>Consulte CEPs</title>
+</head>
+
+<body>
+
+	<div class="topo">
+		<img src="/src/images/busca_cep.png" alt="BuscaCEP">
+		<h2>Consulte CEPs de todo o Brasil</h2>
+	</div>
+
+	<div class="container">
+		<form>
+			<div class="frm-row">
+				<label for="cep">Cep</label>
+				<input type="text" name="cep" id="cep" maxlength="8">
+			</div>
+			<div class="frm-row">
+				<label for="rua">Rua</label>
+				<input type="text" name="rua" id="rua">
+			</div>
+			<div class="frm-row">
+				<label for="bairro">Bairro</label>
+				<input type="text" name="bairro" id="bairro">
+			</div>
+			<div class="frm-row">
+				<label for="cidade">Cidade</label>
+				<input type="text" name="cidade" id="cidade">
+			</div>
+			<div class="frm-row">
+				<label for="estado">Estado</label>
+				<input type="text" name="estado" id="estado">
+			</div>
+		</form>
+
+		<a href="descobrir-cep.html">Não sabe seu CEP?</a>
+	</div>
+
+	<script src="js/consulta-endereco.js"></script>
+</body>
+
+</html>
